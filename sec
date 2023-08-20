@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "write two numbers, with a space, that needs to be divided" 
+read a b
+echo $a $b
+if (( $a % $b == 0 ))
+then
+echo " numberis divisible good"
+else
+echo "number cannot be divisible"
+fi
